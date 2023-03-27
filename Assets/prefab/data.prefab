@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1671220493294641828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2327307660314609543}
+  - component: {fileID: 1532614262670412675}
+  m_Layer: 0
+  m_Name: data
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2327307660314609543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671220493294641828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1532614262670412675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671220493294641828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5527383863c4b0341b43ffd872d5a40e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character:
+  - {fileID: 5627689646138048866, guid: a0907d35f943e154296346b0d9a58363, type: 3}
+  - {fileID: 6908748632810675829, guid: d4faed15090e5554390719581fe89865, type: 3}
+  - {fileID: 5253961356939337790, guid: 5022c80ba06973e43af6e36410af8202, type: 3}
+  - {fileID: 2350277909897294995, guid: b69654fc65752a64e97cf8ab9b9aa50e, type: 3}
+  - {fileID: 7269015207235712755, guid: 5c7c159c1c3f9bc49aeb1ba26e06965e, type: 3}
+  - {fileID: 4203720778681545755, guid: c0ede4e1147ebb64787ad221dbd1d9d3, type: 3}
+  charSelected: 000000000000
+  SpawnCost: 0a0000000f0000001e0000001e0000002d00000050000000
+  destoryerSelected: 0
+  elixir: 8
+  score: 1
+  delta_time: 550.3223
+  waveCounter: 1
+  gameOver: 0
